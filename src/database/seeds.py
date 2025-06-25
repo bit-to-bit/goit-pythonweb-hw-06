@@ -39,7 +39,6 @@ def generate_data():
         group = Group(name=f"Group {fake.random_letter().upper()}-{i+1}")
         groups.append(group)
         session.add(group)
-    print(f"groups = {groups}")
 
     students = []
 
